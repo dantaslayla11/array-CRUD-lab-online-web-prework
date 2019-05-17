@@ -38,5 +38,5 @@ end
 
 def retrieve_last_element_from_array(array)
   a = ["wow", "I", "am", "really", "learning arrays!"]
-  a.last
+  a.
 end
