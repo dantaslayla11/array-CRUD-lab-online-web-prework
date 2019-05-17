@@ -23,12 +23,12 @@ end
 
 def remove_element_from_start_of_array(array)
   a = ["wow", "I", "am", "really", "learning arrays!"]
-  a.shift("wow")
+  a.shift(0)
 end
 
 def retrieve_element_from_index(array, index_number)
   a = ["wow", "I", "am", "really", "learning arrays!"]
-  a.find_index(2)
+  a.find_index()
 end
 
 def retrieve_first_element_from_array(array)
@@ -38,5 +38,5 @@ end
 
 def retrieve_last_element_from_array(array)
   a = ["wow", "I", "am", "really", "learning arrays!"]
-  a.
+  a.[-1]
 end
